@@ -7,6 +7,7 @@ body {
     height: 200px;
     width: 100%;
     margin-top: 15px;
+    display: flex;
 }
 
 
@@ -31,14 +32,16 @@ body {
     border-width: 1px;
     margin-left: 25%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+    align-content: center;
+    justify-content: center;
 }
 
 .purpleBox {
     background: rgb(126, 0, 126);
     height: 120px;
     width: 50px;
-    margin: 0px 0px 40px 10px;
-    display: inline-block;
+    margin: 50px 0px 40px 10px;
+    
 }
 
 .greenBox {
@@ -46,7 +49,7 @@ body {
     height: 165px;
     width: 350px;
     margin: 15px 0px 40px 40px;
-    display: inline-block;
+    
 }
 
 .circle {
@@ -55,19 +58,20 @@ body {
     width: 175px;
     display: inline-block;
     border-radius: 50%;
-    margin: 0px 0px 40px 40px;
+    margin: 10px 0px 40px 40px;
 }
 
 .boxInsideMiddle {
     background: rgb(255, 255, 219);
     height: 140px;
     width: 100%;
-    display: inline-block;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.747);
 }
 
 .bottomBoxText {
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
     font-size: 30px;
     margin-top: 60px;
     color: rgb(0, 0, 173);
