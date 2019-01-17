@@ -1,0 +1,74 @@
+body {
+    padding: 10px;
+}
+
+.topBox, .middleBox, .bottomBox {
+    background: white;
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.topBox { 
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.middleBox { 
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    padding: 20px 40px 10px 40px;
+
+}
+
+.bottomBox {
+    width: 50%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.253);
+    border-width: 1px;
+    margin-left: 25%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+.purpleBox {
+    background: rgb(126, 0, 126);
+    height: 120px;
+    width: 50px;
+    margin: 0px 0px 40px 10px;
+    display: inline-block;
+}
+
+.greenBox {
+    background: green;
+    height: 165px;
+    width: 350px;
+    margin: 15px 0px 40px 40px;
+    display: inline-block;
+}
+
+.circle {
+    background: blue;
+    height: 175px;
+    width: 175px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 0px 40px 40px;
+}
+
+.boxInsideMiddle {
+    background: rgb(255, 255, 219);
+    height: 140px;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.747);
+}
+
+.bottomBoxText {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    color: rgb(0, 0, 173);
+}
