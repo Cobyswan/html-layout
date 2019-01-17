@@ -2,6 +2,7 @@ header {
    background: rgb(187, 187, 187);
    height: 70px; 
    width: 100%; 
+   display: flex;
 }
 
 .logo {
@@ -9,43 +10,50 @@ header {
     height: 50px;
     width: 50px;
     margin: 10px 0px 0px 15px;
-    display: inline-block;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .blueBox, .aquaBox, .peaBox, .yellowBox {
     height: 70px;
     width: 100%;
+    flex: 1;
+
 }
 
 .blueBox {
     background: blue;
-    position: absolute;
-    bottom: 210px;
+    
 }
 
 .aquaBox{
     background: aqua;
-    position: absolute;
-    bottom: 140px;
+    
 }
 
 .peaBox {
     background: palegreen;
-    position: absolute;
-    bottom: 70px;
+    
 }
 
 .yellowBox {
     background: yellow;
-    position: absolute;
-    bottom: 0px;
+    
 }
 
 .textInBox {
     text-align: center;
     font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .textBox {
-    padding: 100px;
+    padding: 50px;
+    display: flex;
 }
